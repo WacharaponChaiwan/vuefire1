@@ -1,11 +1,11 @@
 <template>
   <div class="d-flex justify-content-center d-flex align-items-center">
     <div class="m-5">
-      <div class="mb-3" style="color: aliceblue;">
+      <div class="mb-3" style="color: aliceblue">
         <label for="formGroupExampleInput" class="form-label">Email</label>
         <input type="text" placeholder="email" v-model="email" />
       </div>
-      <div class="mb-3" style="color: aliceblue;">
+      <div class="mb-3" style="color: aliceblue">
         <label for="formGroupExampleInput2" class="form-label">Password</label>
         <input type="password" name="pwd" id="" v-model="pwd" />
       </div>
