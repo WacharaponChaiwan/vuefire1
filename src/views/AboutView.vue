@@ -1,6 +1,12 @@
 <template>
+  <div
+    class="d-flex justify-content-center d-flex align-items-center"
+    style="color: black"
+  >
+    <h1>Menu</h1>
+  </div>
   <div class="d-flex justify-content-center d-flex align-items-center">
-    <div class="row" style="color: cornsilk">
+    <div class="row" style="color: black">
       ชื่อเมนูไทย : <input type="text" v-model="menu.nameTH" /><br />
       ชื่อเมนูEng : <input type="text" v-model="menu.nameEng" /><br />
       ราคา : <input type="number" v-model="menu.price" /><br />
@@ -26,7 +32,7 @@
   </div>
   <div class="d-flex justify-content-center">
     <div style="width: 70%">
-      <table class="table" style="color: aliceblue">
+      <table class="table" style="color: black">
         <thead>
           <tr>
             <th scope="col">ชื่อ</th>

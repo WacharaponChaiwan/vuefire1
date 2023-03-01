@@ -1,11 +1,14 @@
 <template>
+  <div class="d-flex justify-content-center d-flex align-items-center" style="color: black">
+    <h1>Welcome</h1>
+  </div>
   <div class="d-flex justify-content-center d-flex align-items-center">
-    <div class="m-5">
-      <div class="mb-3" style="color: aliceblue">
+    <div class="m-2">
+      <div class="mb-3" style="color: black">
         <label for="formGroupExampleInput" class="form-label">Email</label>
         <input type="text" placeholder="email" v-model="email" />
       </div>
-      <div class="mb-3" style="color: aliceblue">
+      <div class="mb-3" style="color: black">
         <label for="formGroupExampleInput2" class="form-label">Password</label>
         <input type="password" name="pwd" id="" v-model="pwd" />
       </div>
@@ -55,7 +58,6 @@
       <!--<button @click="($event) => login()">Login</button>
       <button @click="($event) => Register()">Register</button>
       <button @click="($event) => GoogleLogin()">GoogleLogin</button><br><br>-->
-      <img src="http://f.ptcdn.info/006/032/000/1433223866-K44759148-o.gif" alt="" />
     </div>
   </div>
   <!--<div>
