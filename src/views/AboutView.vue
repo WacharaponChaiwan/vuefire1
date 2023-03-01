@@ -9,7 +9,7 @@
     <div class="row" style="color: black">
       ชื่อเมนูไทย : <input type="text" v-model="menu.nameTH" /><br />
       ชื่อเมนูEng : <input type="text" v-model="menu.nameEng" /><br />
-      ราคา : <input type="number" v-model="menu.price" /><br />
+      ราคา : <input type="number" v-model="menu.price" /><br /> บาท
       รายละเอียด : <input type="text" v-model="menu.detail" /> <br />
       <div class="row mt-2 gap-4">
         <button
