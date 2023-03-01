@@ -157,6 +157,7 @@ function GoogleLogin() {
       // IdP data available using getAdditionalUserInfo(result)
       // ...
       console.log("token =" + token + "" + user);
+      router.push("/about");
     })
     .catch((error) => {
       // Handle Errors here.

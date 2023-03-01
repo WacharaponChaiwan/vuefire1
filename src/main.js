@@ -13,13 +13,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBVi7vOC3kRFBhHJh5XBhxfKyhMBS0GUjE",
-  authDomain: "fir-b74e6.firebaseapp.com",
-  projectId: "fir-b74e6",
-  storageBucket: "fir-b74e6.appspot.com",
-  messagingSenderId: "167103138626",
-  appId: "1:167103138626:web:01d7734651d0872f8716db",
-  measurementId: "G-4Q5VNLNTD6"
+  apiKey: "AIzaSyCac3O28pi9hQRJloRvsa2qZpEixDGSrwY",
+  authDomain: "lab-vuefire.firebaseapp.com",
+  projectId: "lab-vuefire",
+  storageBucket: "lab-vuefire.appspot.com",
+  messagingSenderId: "418448307906",
+  appId: "1:418448307906:web:fb1f111cb5208aef526d5b"
 };
 
 // Initialize Firebase
